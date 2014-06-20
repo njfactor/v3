@@ -68,11 +68,11 @@ function addEntry()
 	var data4= row.insertCell(4);
 	var data5= row.insertCell(5);
  	
-	data0.innerHTML = cart[rowcount-2].SrNo;
-	data1.innerHTML = cart[rowcount-2].pdName;
-	data2.innerHTML = cart[rowcount-2].pdId;
-	data3.innerHTML = cart[rowcount-2].pdPrice;
-	data4.innerHTML = cart[rowcount-2].dtMfg;
+	data0.innerHTML = cart[rowCount-2].SrNo;
+	data1.innerHTML = cart[rowCount-2].pdName;
+	data2.innerHTML = cart[rowCount-2].pdId;
+	data3.innerHTML = cart[rowCount-2].pdPrice;
+	data4.innerHTML = cart[rowCount-2].dtMfg;
  
 	/* var btn = data5.createElement["BUTTON"];
 	var t =data5.createTextNode("Delete this item");
